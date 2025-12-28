@@ -29,6 +29,9 @@ Breadboard & Jumper Wires
 Wi-Fi connection
 
 # Sensor Wiring
+
+![Sensor Wiring](.C:\Users\shiva\OneDrive\Desktop\IOT azure\one.png)
+
 DHT11 Pin	Connection
 
 Pin 1	3.3V (ESP32)

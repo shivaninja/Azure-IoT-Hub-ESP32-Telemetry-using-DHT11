@@ -37,7 +37,7 @@ Pin 2	GPIO (any digital pin) + 10kΩ pull-up
 
 Pin 4	GND
 
-## Note: Do NOT power DHT11 with 5V when using ESP32. Use 3.3V only.
+### Note: Do NOT power DHT11 with 5V when using ESP32. Use 3.3V only.
 
 # Software Requirements
 

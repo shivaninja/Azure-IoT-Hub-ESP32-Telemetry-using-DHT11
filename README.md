@@ -1,4 +1,5 @@
 # Azure-IoT-Hub-receiving-ESP32-Telemetry-using-DHT11
+In this project I sent DHT 11 Sensor data to Azure IOT hub using ESP32
 This project demonstrates sending temperature and humidity data from an ESP32 microcontroller to Azure IoT Hub using MQTT, with a DHT11 sensor as the data source.
 The ESP32 reads sensor values periodically and publishes them as JSON telemetry messages to Azure IoT Hub, where they can be monitored, stored, or processed further.
 

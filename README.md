@@ -30,8 +30,11 @@ Wi-Fi connection
 
 # Sensor Wiring
 DHT11 Pin	Connection
+
 Pin 1	3.3V (ESP32)
+
 Pin 2	GPIO (any digital pin) + 10kΩ pull-up
+
 Pin 4	GND
 
 ## Note: Do NOT power DHT11 with 5V when using ESP32. Use 3.3V only.

@@ -34,7 +34,7 @@ Pin 1	3.3V (ESP32)
 Pin 2	GPIO (any digital pin) + 10kΩ pull-up
 Pin 4	GND
 
-# Note: Do NOT power DHT11 with 5V when using ESP32. Use 3.3V only.
+## Note: Do NOT power DHT11 with 5V when using ESP32. Use 3.3V only.
 
 # Software Requirements
 
@@ -51,7 +51,7 @@ DHT sensor library
 AzureIotHub
 
 Esp32MQTTClient
-
+You can use the below code for including libraries in code
 ```
 #include <WiFi.h>
 #include "DHT.h"

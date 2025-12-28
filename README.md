@@ -30,7 +30,7 @@ Wi-Fi connection
 
 # Sensor Wiring
 
-![Sensor Wiring](.C:\Users\shiva\OneDrive\Desktop\IOT azure\one.png)
+![Sensor Wiring](/Azure-IoT-Hub-receiving-ESP32-Telemetry-using-DHT11/tree/main/one.png)
 
 DHT11 Pin	Connection
 

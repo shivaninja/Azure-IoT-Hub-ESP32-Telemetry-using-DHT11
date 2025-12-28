@@ -43,6 +43,48 @@ Pin 4	GND
 
 ### Note: Do NOT power DHT11 with 5V when using ESP32. Use 3.3V only.
 
+# Block Diagram
+```
+----------------------
+|    DHT11 Sensor    |
+|--------------------|
+| Temperature        |
+| Humidity           |
+----------+-----------
+          |
+          | (GPIO)
+          v
+----------+-----------
+|        ESP32       |
+|--------------------|
+| - DHT Library      |
+| - WiFi Stack       |
+| - MQTT Client      |
+| - JSON Formatter   |
+----------+-----------
+          |
+          | (Wi-Fi / MQTT)
+          v
+----------+-----------
+|   Azure IoT Hub    |
+|--------------------|
+| - Device Registry  |
+| - Message Ingest   |
+| - Cloud Routing    |
+----------+-----------
+          |
+          | (Monitoring / Processing)
+          v
+----------------------
+| Azure Tools        |
+|--------------------|
+| - IoT Explorer     |
+| - Stream Analytics |
+| - Storage / Apps   |
+----------------------
+
+```
+
 # Software Requirements
 
 Arduino IDE

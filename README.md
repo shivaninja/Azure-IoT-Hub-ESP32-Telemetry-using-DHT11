@@ -30,7 +30,7 @@ Wi-Fi connection
 
 # Sensor Wiring
 
-![Sensor Wiring](/Azure-IoT-Hub-receiving-ESP32-Telemetry-using-DHT11/tree/main/one.png)
+![Sensor Wiring](Wiring Diagram/pic.png)
 
 DHT11 Pin	Connection
 
